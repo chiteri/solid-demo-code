@@ -1,0 +1,26 @@
+{
+  "name": "solid-demo-app",
+  "version": "1.0.0",
+  "description": "Demo app for SOLID and Inrupt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open true"
+  },
+  "keywords": [],
+  "author": "Martin Chiteri",
+  "license": "ISC",
+  "dependencies": {
+    "@inrupt/solid-client": "^1.6.0",
+    "@inrupt/solid-client-authn-browser": "^1.7.2",
+    "@inrupt/vocab-common-rdf": "^0.7.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
